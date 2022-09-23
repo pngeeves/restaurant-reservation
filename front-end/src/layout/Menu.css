@@ -1,0 +1,26 @@
+img{
+    width: 100%;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #c5d397;
+    text-align: justify;
+    color: black;
+    border-radius: 2px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 50%;
+    }
+}

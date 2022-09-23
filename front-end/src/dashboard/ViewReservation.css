@@ -1,0 +1,104 @@
+.reservation__container{
+    background: #adc178;
+    opacity: 95%;
+    margin-top:20px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 5px;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+}
+
+h1{
+    font-weight: bold;
+}
+
+.reservation__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reservation__name{
+    color: #070808;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.reservation__number{
+    color: #070808;
+    font-weight: 400;
+    font-size: 1 rem;
+    line-height: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.reservation__time{
+    color: #070808;
+    font-weight: 400;
+    font-size: 1 rem;
+    line-height: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.reservation__size{
+    color: #070808;
+    font-weight: 400;
+    font-size: 1 rem;
+    line-height: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.reservation__status{
+    color: #070808;
+    font-weight: 400;
+    font-size: 1 rem;
+    line-height: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.reservation__btnGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    color: white;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    border-color: rgba(255,255,255,1);
+}
+
+.btn-warning {
+    color: #070808;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open > .dropdown-toggle.btn-warning {
+    border-color: rgba(255,255,255,1);
+    color: white;
+}
+
+.btn-danger {
+    color: white;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .dropdown-toggle.btn-danger {
+    border-color: rgba(255,255,255,1);
+}
+
+.custom1{
+    width: 70px;
+}
+

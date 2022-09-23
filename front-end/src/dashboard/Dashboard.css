@@ -1,0 +1,59 @@
+body{
+    background-image: url("../rest-img/clear-background.png") ;
+    background-size: cover;
+}
+
+.h1{
+    margin:auto;
+    line-height:51px;
+    vertical-align:middle;
+}
+
+.dayButton{
+    width: 100px;
+    background-color: #a98467;
+    color: white;
+}
+
+.dayButton:hover{
+    border-color: #adc178;
+    color: white;
+    background-color: #6c584c ;
+}
+
+.btn-info:hover{
+    border-color: rgba(255,255,255,1);
+    color: white;
+}
+
+.reservationsList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.dashboard__content {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+    .reservationsList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .reservationsList {
+        display: flex;
+        flex-direction: column;
+    }
+    .dashboardHeader{
+        text-align: center;
+        
+    }
+    
+}

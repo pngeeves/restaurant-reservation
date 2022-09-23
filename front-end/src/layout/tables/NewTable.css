@@ -1,0 +1,31 @@
+.tablesNew__form{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.tablesNew_formGroup {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.tablesNew {
+    padding-top: 2rem;
+    width: 100%;
+    max-height: 100vh;
+}
+
+.tablesNew__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
