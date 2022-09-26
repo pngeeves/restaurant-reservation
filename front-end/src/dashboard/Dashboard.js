@@ -42,7 +42,7 @@ function Dashboard({ date }) {
   return (
     <main style={{ maxWidth: '100vw' }}>
       <header>
-      <h1 className='mt-3 custom2' class='display-3' >Dashboard</h1>
+      <h1 className='mt-3 custom2' className='display-3' >Dashboard</h1>
       </header>
       <div className='d-md-flex mb-3'>
         <div className='dashboardHeader'>

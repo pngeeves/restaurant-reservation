@@ -61,7 +61,7 @@ const searchResults = results?.length ? (
 return (
     <div className='search'>
         <div className='search__container'>
-            <h1 class="display-3">Search for Reservation</h1>
+            <h1 className="display-3">Search for Reservation</h1>
                 <ErrorAlert error={error} />
                     <form className='search__form' onSubmit={handleSubmit}>
                         <div className='search__formGroup'>
